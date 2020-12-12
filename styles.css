@@ -1,0 +1,282 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+/*Codes below are for logo and navbar*/
+    #header {
+        font-family: 'Roboto', sans-serif;
+        font-size:50px;
+        color:black;
+        margin:10px 0px 0px 1%;
+        position:relative;
+    }
+
+    #header-img {
+        vertical-align: middle;
+        width:200px;
+        margin: 0px 20px 0px 2%;
+        height:auto;
+        border-radius: .5rem;
+        vertical-align: middle;
+    }
+    
+    #nav-bar {
+        position:fixed;
+        right:2%;
+        top:0%;
+        text-shadow: 1px 1px 1px white;
+        z-index: 1;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        color:black;
+        padding:20px;
+        text-decoration-line:none;
+        font-weight: lighter;
+    }
+    /*Codes above are for logo and navbar*/
+    
+    /*Codes below are for introduction section*/
+    #video {
+        height: 450px;
+        margin: 2% auto 2% auto;
+        min-width: 65%;
+        border-radius: 1rem;
+    }
+
+    #About {
+        display:flex; 
+        justify-content:center;
+        background-image: linear-gradient(#f5f5f5,rgba(255, 0, 0, 0.726));
+        margin: 10px 1%;
+        border-radius: .5rem;
+        padding:40px;
+    }
+    /*Codes above are for intro section*/
+
+    /*Codes below are for features section*/
+    .container1 {
+        width:98%;
+        height:auto;
+        margin:50px auto 0;
+        color:rgb(61, 61, 61);
+        border-radius:.5rem;
+        padding-top:10px;
+        padding-bottom:10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    figure > img {
+        width:380px;
+        height:auto;
+        margin: 20px 15px 0px 15px;
+        box-shadow: 1.5px 1px 1px black;
+        border-radius: .5rem;
+    }
+
+    .feature-description {
+        max-width: 300px;
+        text-align: center;
+        margin: 10px auto 20px auto;
+        font-size:15px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    figcaption > span  {
+        font-size:20px;
+        margin-left:15px;
+        font-weight: 550;
+        font-family:'Roboto', sans-serif;
+    }
+
+    .multiplayer {
+        border-radius:.5rem;
+        width: 35%;
+        height:auto;
+        margin:0px 10px 10px 1%;
+        box-shadow: 4px 5px 5px black;
+    }
+    
+    h2 {
+        color:white;
+        font-weight: lighter;
+        background-color:red;
+        padding:40px 0px 40px 50px;
+        border-radius: 1rem 0px 0px 1rem;
+        margin-left:0px;
+        font-size: 40px;
+    }
+
+    .container2 {
+        display:flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin:0px 1% 40px;
+        max-width:100%;
+    }
+
+    .verticalFlex {
+        display:flex; 
+        align-items: center;
+        text-align: justify;
+    }
+    /*Codes above are for features section*/
+
+    /*Codes below are for buy section*/
+    #Buy {
+        display:flex; 
+        justify-content:center;
+        align-items: center;
+        background-image: linear-gradient(rgba(131, 131, 131, 0.726), #f5f5f5);
+        margin: 10px 1% 10px 1%;
+        border-radius: .5rem;
+    }
+    
+    .buy-description {
+        font-size: 20px;
+        font-family: 'Raleway',sans-serif;
+        padding:0px 40px;
+    }
+    
+    button {
+        background-color: red;
+        padding: 15px;
+        border-radius: .25rem;
+    }
+
+    .variant {
+        height:auto;
+        max-width: 100%;
+        border-radius: .5rem;
+    }
+    /*Codes above are for buy section*/
+
+    /*Codes below are for form*/
+    #form {
+        margin-top:100px;
+        margin-bottom:50px;
+        font-family: 'Raleway', sans-serif;
+        text-align:center;
+    }
+
+    #email {
+        width:25%;
+        padding:6px 0px 6px 5px;
+        border-radius: .3rem;
+        font-size: 15px;
+    }
+    
+    #submit {
+        border-radius:.25rem;
+        background-color: red;
+        padding:8px 2px 8px 2px;
+        display:block;
+        width:7%;
+        margin:10px auto;
+        color:white;
+        font-size:15px;
+        cursor: pointer;
+    }
+    /*Codes above are for form*/
+    
+    @media only screen and (max-width:768px) {
+        #header-img {
+            width: 25vw;
+            display:block;
+            margin-bottom:5px;
+            margin-left:0px;
+        }
+
+        #header {
+            font-size: 5.5vw;
+        }
+
+        .nav-link {
+            font-size: 3vw;
+            padding:4px;
+        } 
+
+     	#video {
+        	width: 100%;
+            height: 40vw;
+        }
+        
+        .feature-description {
+            font-size: 3.25vw;
+        }
+
+        figcaption > span  {
+            font-size:5vw;
+        }
+
+        figure > img {
+            width:80%;
+            height:auto;
+            margin:10px auto 20px auto;
+            display:block;
+        }
+
+        .features {
+            width:100%;
+            margin:0px auto 0px auto;
+            display:block;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size:22px;
+            padding:15px 0px 15px 20px;
+            border-radius: .25rem 0px 0px .25rem;
+        }
+        
+        .multiplayer {
+            width: 60vw;
+            height: auto;
+        }
+        
+        .container2 {
+            font-size:3.25vw;
+        }
+
+        #Buy {
+            flex-wrap: wrap;
+            padding-top:20px;
+        }
+        
+        .buy-description {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 5vw;
+        }
+
+        .buy-description > span {
+            font-size: 3.25vw;
+        }
+        
+        button {
+            padding: 2vw;
+        }
+
+        #form {
+            font-size: 4.5vw;
+        }
+        #email {
+            font-size: 3.5vw;
+            width:60%;
+        }
+        
+        #submit {
+            width:18%;
+            font-size: 3.5vw;
+        }
+    }
